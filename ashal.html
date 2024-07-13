@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+            <style>
+                .hover {
+                    width:100px ;
+                    height:100px ;
+                    background-color: aqua;
+
+                }
+                .hover:hover {
+
+                    width: 800px;
+                    background-color: teal;
+                    transition: width 2s ;
+                    animation: hover 2s infinite;
+                }
+               
+                @keyframes hover {
+                   0%{
+                    background: beige;
+
+                   }
+                   25%{
+                    background:purple ;
+                   }
+                   50%{
+                    background: seagreen;
+                   }
+                   75%{
+                    background: royalblue;
+                   }
+                   100%{
+                    background: red
+                    ;
+                   }
+                    
+
+                    
+                    
+                }
+            </style>
+      
+
+        
+    </head>
+    <body>
+
+<div class="hover "></div>
+
+    </body>
+</html>
